@@ -76,5 +76,7 @@ try {
 } catch (ApiException e) {
     throw new RuntimeException(e);
 }
+
 ```
+![ Cashfree Image](https://miro.medium.com/v2/resize:fit:1400/1*A-7q-BxHgR8U7l6Pab4xRQ.png)
 Additionally, if you wish to persist the data in your database, you can achieve this by creating an entity that encapsulates all the parameters involved in the Cashfree API requests. Subsequently, establish a connection to your database and implement the necessary CRUD (Create, Read, Update, Delete) operations within a service class. This approach enables seamless storage and retrieval of data, enhancing the scalability and maintainability of your application.
